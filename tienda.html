@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tienda | En Blanco</title>
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="./estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ---HEADER--- -->
+    <header class="header">
+        <div class="header__logo">
+        </div>
+        
+        <div class="header__principal">
+            <nav class="header__nav">
+                <ul>
+                    <li>
+                        <a href="./tienda.html">tienda</a>
+                    </li>
+                    <li>
+                        <a href="./eventos.html">eventos</a>
+                    </li>
+                    <li>
+                        <a href="./quienesomos.html">quiénes somos</a>
+                    </li>
+                    <li>
+                        <a href="./contacto.html">contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <h2 class="header__subtitulo">
+                <i>Tienda</i>
+            </h2>
+        </div>
+
+        <p class="header__frase"><i>Todo hecho con amor y dedicación</i></p>
+    </header>
+    
+    <!-- ---MAIN--- -->
+    <main class="mainTienda">
+        <h4 class="h4">lo sabemos... ¡imposible decidirse!</h4>
+
+        <form class="mainTienda__form">
+            <fieldset class="mainTienda__cuadro">
+            <legend class="mainTienda__leyenda">tu pedido</legend>
+
+            <ul class="mainTienda__ul">
+                <div class="mainTienda__panmolde">
+                    <li class="mainTienda__li--moldeblanco">
+                        <label for="molde blanco">Pan de molde blanco</label>
+                        <img src="./img/demoldeblanco.png" alt="molde blanco">
+                        <select name="molde blanco" id="molde blanco" class="mainTienda__select">
+                            <option value="nada">cantidad</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </li>
+                    <li class="mainTienda__li--moldeintegral">
+                        <label for="molde integral">Pan de molde integral con semillas</label>                       
+                        <img src="./img/demoldeintegral.png" alt="molde integral">
+                        <select name="molde integral" id="molde integral" class="mainTienda__select">
+                            <option value="nada">cantidad</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </li>
+                </div>
+                <div class="mainTienda__masamadre">
+                    <li class="mainTienda__li--masamadre">
+                        <label for="masa madre">Pan de masa madre</label>
+                        <img src="./img/masamadre2.png" alt="masa madre">
+                        <select name="masa madre" id="masa madre" class="mainTienda__select">
+                            <option value="nada">cantidad</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </li>
+                    <li class="mainTienda__li--masamadreintegral">
+                        <label for="masa madre integral">Pan de masa madre integral</label>
+                        <img src="./img/masamadreintegral.png" alt="masa madre integral">
+                        <select name="masa madre integral" id="masa madre integral" class="mainTienda__select">
+                            <option value="nada">cantidad</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </li>
+                </div>
+                <div class="mainTienda__budin">
+                    <li class="mainTienda__li--budincitrico">
+                        <label for="budin citrico">Budín de cítricos y pepas de chocolate</label>
+                        <img src="./img/budincitrico.png" alt="budin citrico">
+                        <select name="budin citrico" id="budin citrico" class="mainTienda__select">
+                            <option value="nada">cantidad</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </li>
+                    <li class="mainTienda__li--budinbanana">
+                        <label for="budin banana">Budín de banana con nueces</label>
+                        <img src="./img/budinbanana.png" alt="budin banana">
+                        <select name="budin banana" id="budin banana" class="mainTienda__select">
+                            <option value="nada">cantidad</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </li>
+                </div>
+                <div class="mainTienda__dulce">
+                    <li class="mainTienda__li--pepas">
+                        <label for="pepas">Pepas</label>
+                        <img src="./img/pepas2.png" alt="pepas">
+                        <select name="pepas" id="pepas" class="mainTienda__select">
+                            <option value="nada">cantidad</option>
+                            <option value="1">1 (docena)</option>
+                            <option value="2">2 (docena)</option>
+                            <option value="3">3 (docena)</option>
+                        </select>
+                    </li>
+                    <li class="mainTienda__li--mermelada">
+                        <label for="mermelada">Mermelada de frutos rojos</label>
+                        <img src="./img/mermelada.png" alt="mermelada">
+                        <select name="mermelada" id="mermelada" class="mainTienda__select">
+                            <option value="nada">cantidad</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </li>
+                </div>   
+                <div class="mainTienda__otros"> 
+                    <li class="mainTienda__li--pandulce">
+                        <label for="pan dulce">Pan dulce</label>
+                        <img src="./img/pandulce.png" alt="pan dulce">
+                        <select name="pan dulce" id="pan dulce" class="mainTienda__select">
+                            <option value="nada">cantidad</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </li>
+                    <li class="mainTienda__li-prepizzas">
+                        <label for="prepizzas">Prepizzas de masa madre</label>
+                        <img src="./img/prepizzas.png" alt="prepizzas"> 
+                        <select name="prepizzas" id="prepizzas" class="mainTienda__select">
+                            <option value="nada">cantidad</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </li>
+                </div>
+            </ul>
+
+            <div class="mainTienda__contenedor">
+                <div class="mainTienda__datos">
+                    <label for="nombre">nombre</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                    <label for="apellido">apellido</label>
+                    <input type="text" name="apellido" id="apellido" required>
+                    <label for="email">email</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="telefono">teléfono</label>
+                    <input type="tel" name="telefono" id="telefono" required>
+                    <label for="pedido">pedido</label>
+                    <textarea name="pedido" id="pedido" cols="30" rows="8" placeholder="algo que quieras aclarar:) después de realizar tu pedido, recibirás un correo electrónico con el número de orden de compra"></textarea>
+                    <input type="submit" value="encargar" class="mainTienda__boton">
+                </div>
+            
+                <div class="mainTienda__pedidolisto">
+                    <img src="./img/listo.jpeg" alt="pedido listo"> 
+                </div>    
+            </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <!-- ---FOOTER--- -->
+    <footer class="footer">
+        <img src="./img/footer.png" alt="footer" class="footer__imagen">
+
+        <ul class="footer__ul">
+            <li>
+                <a href="./index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/_en.blanco/" target="blank">Instagram</a>
+            </li>
+        </ul>
+
+        <p class="footer__lugar">Moreno, Buenos Aires</p>
+    </footer>
+</body>
+</html>

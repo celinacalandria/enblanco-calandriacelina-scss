@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto | En Blanco</title>
+    <link rel="shortcut icon" href="./img/logo.png">
+    <link rel="stylesheet" href="./estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- ---HEADER--- -->
+    <header class="header">
+        <div class="header__logo">
+        </div>
+        
+        <div class="header__principal">
+            <nav class="header__nav">
+                <ul>
+                    <li>
+                        <a href="./tienda.html">tienda</a>
+                    </li>
+                    <li>
+                        <a href="./eventos.html">eventos</a>
+                    </li>
+                    <li>
+                        <a href="./quienesomos.html">quiénes somos</a>
+                    </li>
+                    <li>
+                        <a href="./contacto.html">contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <h2 class="header__subtitulo">
+                <i>Contacto</i>
+            </h2>
+        </div>
+
+        <p class="header__frase"><i>Todo hecho con amor y dedicación</i></p>
+    </header>
+
+    <!-- ---MAIN--- -->
+    <main class="mainContacto">
+        <h4 class="h4">¡escribínos!</h4>
+
+        <form class="mainContacto__form">
+            <fieldset class="mainContacto__cuadro">
+                <legend class="mainContacto__leyenda">tu consulta</legend>
+                    <label for=nombre>nombre</label>
+                    <input type="text" name="nombre" id="name" required>
+                    <label for="apellido">apellido</label>
+                    <input type="text" name="apellido" id="apellido" required>
+                    <label for=email>email</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="telefono">teléfono</label>
+                    <input type="tel" name="telefono" id="telefono" required>
+                    <label for="consulta">consulta</label>
+                    <textarea name="consulta" id="consulta" cols="30" rows="8" placeholder="te responderemos en breve"></textarea>
+                    <input type="submit" value="enviar" class="mainContacto__boton">
+            </fieldset>
+        </form>
+    </main>
+
+    <!-- ---FOOTER--- -->
+    <footer class="footer">
+        <img src="./img/footer.png" alt="footer" class="footer__imagen">
+
+        <ul class="footer__ul">
+            <li>
+                <a href="./index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/_en.blanco/" target="blank">Instagram</a>
+            </li>
+        </ul>
+
+        <p class="footer__lugar">Moreno, Buenos Aires</p>
+    </footer>
+</body>
+</html>
