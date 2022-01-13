@@ -274,7 +274,7 @@ body{
 }
 .sectionEventos__picada:hover{
     transform: scale(1.2);
-    transition: 0.5s;
+    transition: 1s;
 }
 .sectionEventos__opcion2 h4{
     color: white;
@@ -288,7 +288,7 @@ body{
 }
 .sectionEventos__menu:hover{
     transform: scale(1.2);
-    transition: 0.5s;
+    transition: 1s;
 }
 .h4Eventos{
     margin: 1rem;
@@ -308,7 +308,7 @@ body{
 }
 .sectionEventos__salmon:hover{
     transform: scale(1.2);
-    transition: 0.5s;
+    transition: 1s;
 }
 .sectionEventos__panes{
     width: 40%;
@@ -316,7 +316,7 @@ body{
 }
 .sectionEventos__panes:hover{
     transform: scale(1.2);
-    transition: 0.5s;
+    transition: 1s;
 }
 
 /* ****SECTION QUIENES**** */
