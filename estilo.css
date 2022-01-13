@@ -242,8 +242,12 @@ body{
     font-size: 1.2rem;
     letter-spacing: 0.3rem;
 }
-.sectionDesktop{
+.sectionDesktop {
     padding: 1.2rem;
+}
+.sectionDesktop:hover{
+    transform: scale(1,1.5);
+    transition: 1s;
 }
 .sectionDesktop__frase{
     color: #F3DFC1;
