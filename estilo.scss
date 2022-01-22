@@ -1,6 +1,6 @@
 @import "variables"; 
 
-/* generales */
+/* GENERALES */
 *{
     margin: 0px;
     padding: 0px;
@@ -10,7 +10,7 @@ body{
     font-family: $letra;
 }
 
-/* header */
+/* HEADER */
 .header__principal{
     background-image: url("./img/logo.png");
     background-color: $color-principal;
@@ -52,7 +52,7 @@ body{
     padding-bottom: 1.5rem;
 }
 
-/* main */
+/* MAIN */
 .main__imagenes{
     display: flex;
     flex-direction: row;
@@ -66,7 +66,7 @@ body{
     }
 }
 
-/* section */
+/* SECTION */
 .sectionDesktop{
     padding: 2.5rem;
     h3{
@@ -77,7 +77,7 @@ body{
     }
 }
 
-/* footer */
+/* FOOTER */
 .footer{
     background-color: $color-principal;
     color: $color-1;
