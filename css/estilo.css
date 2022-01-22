@@ -12,7 +12,8 @@ body {
 
 /* header */
 .header__principal {
-  background-image: url(./img/logo.png);
+  background-image: url("./img/logo.png");
+  background-color: #00524B;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left;
@@ -21,22 +22,21 @@ body {
 
 .header__principal nav {
   padding: 1rem;
-  margin-left: 2rem;
+  margin: auto;
   list-style-type: none;
   text-align: center;
 }
 
 .header__principal li {
   display: inline-block;
-  margin: 0.5rem;
-  margin-left: 5rem;
+  margin: auto;
 }
 
 .header__principal li a {
   text-decoration: none;
   text-transform: uppercase;
   color: #F3DFC1;
-  padding: 1.5rem;
+  padding: 3rem;
   font-size: 1rem;
 }
 
@@ -46,7 +46,7 @@ body {
   padding: 1rem;
   letter-spacing: 1rem;
   text-align: center;
-  margin-left: 5rem;
+  margin: auto;
 }
 
 .header__frase {
